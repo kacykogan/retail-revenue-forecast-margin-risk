@@ -8,6 +8,14 @@ The analysis was designed to answer three key business questions:
 2.	Are category-level margins structurally healthy?
 3.	Can we produce a reliable forward-looking revenue forecast for planning purposes?
 
+### Dashboard Preview
+
+<p align="center">
+  <img src="images/dashboard_preview.png" alt="Retail Revenue Forecast & Margin Risk Dashboard" width="1200">
+</p>
+
+<p align="center"><em>Executive dashboard highlighting revenue concentration, forecast validation, and profitability diagnostics.</em></p>
+
 ### Data
 * Source: Tableau Superstore Dataset, available [here](https://public.tableau.com/app/learn/sample-data).
 * Timeframe: January 2014- December 2017
@@ -43,21 +51,25 @@ The analysis was designed to answer three key business questions:
 ### Key Insights 
 
 **Revenue Risk Concentration**
-* 51% of annual revenue occurs in the final four months (Sep–Dec).
-*	A 10% underperformance during peak season would reduce full-year revenue by ~5%.
-*	Revenue planning is highly dependent on Q4 execution.
+  <img src="images/seasonality_index.png" alt="Seasonality Index" width="400">
+  * 51% of annual revenue occurs in the final four months (Sep–Dec).
+  * A 10% underperformance during peak season would reduce full-year revenue by ~5%.
+  * Revenue planning is highly dependent on Q4 execution.
 
 **Growth Moderation**
+ <img src="images/forecast_2018.png" alt="2018 Forecast" width="600">
   * Revenue grew 15% in 2017.
   * Growth projected to slow to 9% in 2018.
   * Forecast reliability is moderate (14% MAPE).
     
 **Category Profitability Imbalance**
+ <img src="images/Category_Margins.png" alt="Category Margins" width="600">
   * All three major categories contribute similar revenue share.
   * Margins vary significantly: Furniture (2%), Office Supplies (17%), Technology (22%).
   * Furniture materially dilutes blended profitability.
     
 **Profit Leakage Drivers**
+<img src="images/negative_profit.png" alt="Subcategories with Negative Profit" width="500">
   * Subcategories generating negative profit in 2017:
     * Tables 
     * Bookcases
