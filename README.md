@@ -18,35 +18,35 @@ The analysis was designed to answer three key business questions:
 
 ### Data
 * Source: Tableau Superstore Dataset, available [here](https://public.tableau.com/app/learn/sample-data).
-* Timeframe: January 2014- December 2017
+* Timeframe: January 2014- December 2017.
 * Analysis was conducted in Excel using structured tables, pivot modeling, seasonality normalization, and forecast validation techniques.
 
 ### Methodology
 
 1.	**Data Cleaning** 
-    * Cleaned and structured raw transactional data
-    * Integrated returns data to calculate Net Sales
-    * Implemented validation checks to ensure data integrity
+    * Cleaned and structured raw transactional data.
+    * Integrated returns data to calculate Net Sales.
+    * Implemented validation checks to ensure data integrity.
 2.	**Revenue & Seasonality Analysis** 
-    * Aggregated monthly net sales
-    * Calculated normalized seasonality index across four historical years using a weighted seasonal average
-    * Identified revenue concentration trends
+    * Aggregated monthly net sales.
+    * Calculated normalized seasonality index across four historical years using a weighted seasonal average.
+    * Identified revenue concentration trends.
 3.	**Forecast Development** 
     Two models were tested:
-    * Excel ETS model with automatic seasonality detection
-    * Annual ETS trend model allocated monthly using a manually calculated seasonality index
+    * Excel ETS model with automatic seasonality detection.
+    * Annual ETS trend model allocated monthly using a manually calculated seasonality index.
     * A 2017 holdout year was used for validation.
       * Model Selection:
-        * Manual seasonality model selected
-        * 14% MAPE (vs 22% using ETS auto-seasonality)
-        * Demonstrated improved monthly predictive accuracy
-        * Projected 2018 revenue: $716,988 (9% growth)
+        * Manual seasonality model selected.
+        * 14% MAPE (vs 22% using ETS auto-seasonality).
+        * Demonstrated improved monthly predictive accuracy.
+        * Projected 2018 revenue: $716,988 (9% growth).
         * Forecast range reflects ±14% historical accuracy.
 4.	 **Profitability Diagnostics** 
-     * Category-level revenue and margin comparison
-     * Subcategory profit breakdown
-     * Discount rate analysis
-     * Return rate review to isolate margin drivers
+     * Category-level revenue and margin comparison.
+     * Subcategory profit breakdown.
+     * Discount rate analysis.
+     * Return rate review to isolate margin drivers.
 
 ### Key Insights 
 
@@ -86,8 +86,8 @@ The analysis was designed to answer three key business questions:
   * Monitor forecast accuracy quarterly and recalibrate seasonality annually.
 
 ### Tools & Skills Demonstrated
-* Financial forecasting (trend + seasonality modeling)
-* Holdout validation and MAPE evaluation
-* Revenue concentration risk analysis
-* Profitability diagnostics by category and SKU
-* Executive dashboard design in Excel
+* Financial forecasting (trend + seasonality modeling).
+* Holdout validation and MAPE evaluation.
+* Revenue concentration risk analysis.
+* Profitability diagnostics by category and SKU.
+* Executive dashboard design in Excel.
